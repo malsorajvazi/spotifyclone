@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+h1, h2, h3, p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h4 {
+  font-size: 14px;
+  color: #B3B3B3;
+}
+
+/*LEFT NAVIGATION MENU*/
+.left-side {
+  position: relative;
+  position: fixed;
+  left: 0;
+  width: 330px;
+  height: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 25px 25px 150px 25px;
+  font-family: sans-serif;
+  z-index: 1;
+}
+
+.left-side--logo {
+  margin-bottom: 35px;
+}
+
+.left-side--logo img {
+  max-width: 38px;
+  margin-right: 5px;
+}
+
+.left-side span {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.left-side--navigation {
+  margin-bottom: 45px;
+}
+
+.left-side--navigation h4 {
+  font-size: 14px;
+  color: #B3B3B3;
+}
+
+.left-side--navigation span {
+  margin-bottom: 17px;
+}
+
+.left-side--navigation img {
+  max-width: 22px;
+  margin-right: 17px;
+}
+
+.left-side--playlists span {
+  margin-bottom: 17px;
+}
+
+.left-side--playlists img {
+  max-width: 22px;
+  margin-right: 17px;
+}
+
+.left-side hr {
+  background-color: #282828;
+  border: none;
+  height: 1px;
+  margin: 8px;
+}
+
+.install-app {
+  position: absolute;
+  bottom: 30%;
+}
+
+.install-app img {
+  max-width: 22px;
+  margin-right: 17px;
+}
+
+/*BOTTOM NAVIAGTION MENU*/
+.bottom-side {
+  background-color: #181818;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.currently-playing {
+  display: flex;
+  align-items: center;
+}
+
+.currently-playing--image img {
+  max-width: 60px;
+  margin-right: 15px;
+}
+
+.currently-playing h5 {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.currently-playing p {
+  font-size: 11px;
+  color: #B3B3B3;
+}
+
+.currently-playing--icons {
+  margin-left: 20px;
+}
+
+.currently-playing--icons img {
+  max-width: 15px;
+  margin-left: 10px;
+}
+
+.music-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-control--buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  align-content: center;
+}
+
+.music-control--buttons img {
+  max-width: 15px;
+}
+
+.music-control--bar {
+  align-self: center;
+}
+
+.music-control--bar hr {
+  width: 300px;
+  height: 2px;
+  margin: 15px;
+}
+
+.sound-control {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.sound-control img {
+  max-width: 15px;
+  margin-left: 20px;
+}
+
+.sound-control hr {
+  width: 150px;
+  margin: 10px;
+}
+
+/*MAIN SIDE*/
+.main-side {
+  margin-left: 380px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-image: linear-gradient(#3A1812, #000);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 20px 30px;
+}
+
+nav img {
+  max-width: 30px;
+  margin-right: 20px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #110705;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+.welcome-text {
+  margin-left: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
